@@ -1,0 +1,6 @@
+0 ?"copyright (c) 2021 very terrible code{return}by ianskinner1982{return}"
+10 poke56,92:print"loading the sus...":load"sus.kla",8,1
+20 poke88,0:poke89,95:poke90,64:poke91,130:poke781,4:poke782,0:sys41964:rem copy memory i think.
+30 poke88,0:poke89,219:poke90,40:poke91,134:poke781,4:poke782,0:sys41964:rem more of the same. probably.
+40 poke56576,150:rem i dunno man
+50 v=53248:pokev+17,59:pokev+22,216:pokev+24,121:pokev+32,0:pokev+33,0:rem help
