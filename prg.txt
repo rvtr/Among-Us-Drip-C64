@@ -1,9 +1,33 @@
-0 ?"copyright (c) 2021 very terrible code{return}by ianskinner1982{return}"
-10 poke56,92:print"loading the sus...":load"sus.kla",8,1:load"sustune.sid",8,1
-20 poke88,0:poke89,95:poke90,64:poke91,130:poke781,4:poke782,0:sys41964:rem copy memory i think.
-30 poke88,0:poke89,219:poke90,40:poke91,134:poke781,4:poke782,0:sys41964:rem more of the same. probably.
-40 poke56576,150:rem i dunno man
-50 v=53248:pokev+17,59:pokev+22,216:pokev+24,121:pokev+32,0:pokev+33,0:rem help
-
-60 sys 4096:poke 56334,0:rem sid stuff
-70 sys 4099:wait 53265,128,128:goto 20:rem more sid stuff
+0 ifx=3then310
+5 ifx=2then300
+7 ?"copyright (c) 2021 very terrible code{return}program by ianskinner1982":?"loading the sus"
+10 me=49152:rem here be stolen code
+20 readop
+30 ifop<0thengoto99
+40 pokeme,op
+50 me=me+1
+60 goto20
+99 goto250
+100 data120:rem sei
+110 data169,0:rem lda #0
+120 data32,0,16:rem jsr $1000
+130 data32,3,16:rem jsr $1003
+140 data173,18,208:rem lda $d012
+150 data201,112:rem cmp #112
+160 data208,249:rem bne l140
+170 data173,1,220:rem lda $dc01
+180 data201,255:rem cmp #$ff
+190 data240,239:rem bne l130
+200 data169,0:rem lda #0
+210 data141,24,212:rem sta $d418
+220 data88:rem cli
+230 data96:rem rts
+240 data-1
+250 x=2:load"sustune.dat",8,1
+300 poke56,92:print"hold on you sussy baka! i'm still loading!"
+305 x=3:load"sus.kla",8,1
+310 poke88,0:poke89,95:poke90,64:poke91,130:poke781,4:poke782,0:sys41964:rem copy memory i think.
+320 poke88,0:poke89,219:poke90,40:poke91,134:poke781,4:poke782,0:sys41964:rem more of the same. probably.
+330 poke56576,150:rem i dunno man
+340 v=53248:pokev+17,59:pokev+22,216:pokev+24,121:pokev+32,0:pokev+33,0:rem help
+350 sys49152:goto350
