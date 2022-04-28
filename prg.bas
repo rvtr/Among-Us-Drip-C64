@@ -1,6 +1,6 @@
 0 ifx=3then140
 10 ifx=2then120
-20 poke53280,0:poke53281,0:?"{clear}copyright (c) 2021 very terrible code":?"loading..."
+20 poke53280,0:poke53281,0:?"{clear}copyright (c) 2022 very terrible code":?"loading..."
 30 me=49152
 40 readop
 50 ifop>998thengoto99
